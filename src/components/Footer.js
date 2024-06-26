@@ -7,6 +7,11 @@ import { FaCopyright } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
+    const handleSubmit = () => {
+        setTimeout(() => {
+            alert("Thank you for your feedback!")
+        },3000)
+    }
     return (
         <footer>
             <div className="main-content">
@@ -36,7 +41,7 @@ export default function Footer() {
                 <div className="right box">
                     <h2>Contact Us</h2>
                     <div className="content">
-                        <form action="#">
+                        <form >
                             <div className="email"><label>Email</label>
                                 <input type="email" required />
                             </div>
@@ -44,7 +49,7 @@ export default function Footer() {
                                 <label>Message</label>
                                 <textarea  cols="25" rows="2" required></textarea>
                             </div>
-                            <button type="submit" className="btn-primary">Submit</button>
+                            <button className="btn-primary" onClick={handleSubmit}>Submit</button>
                         </form>
                     </div>
                 </div>
