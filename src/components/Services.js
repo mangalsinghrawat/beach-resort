@@ -8,23 +8,23 @@ export class Services extends Component {
         services: [
             {
                 icon: <FaCocktail />,
-                title: "Free Cocktails",
-                info: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Megni, corporis!'
+                title: "Cocktails",
+                info: 'We Offer Wide Range of Variety On Cocktails.'
             },
             {
                 icon: <FaHiking />,
                 title: "Endless Hiking ",
-                info: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Megni, corporis!'
+                info: 'Our Resorts Are Located Near By Hiking Areas.'
             },
             {
                 icon: <FaShuttleVan />,
                 title: "Free Shuttle",
-                info: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Megni, corporis!'
+                info: 'We Offer Free Pickups facilitie'
             },
             {
                 icon: <FaBeer />,
                 title: "Strongest Beer ",
-                info: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Megni, corporis!'
+                info: 'We have Bar Sections Whare We Offer Beers Too.'
             }
         ]
     }

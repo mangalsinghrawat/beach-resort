@@ -10,7 +10,7 @@ export default function Footer() {
     const handleSubmit = () => {
         setTimeout(() => {
             alert("Thank you for your feedback!")
-        },3000)
+        },2000)
     }
     return (
         <footer>
@@ -18,7 +18,7 @@ export default function Footer() {
                 <div className="left box">
                     <h2>About Us</h2>
                     <div className="content">
-                        <p>Welcome to BeachHomes, where your dream beach vacation becomes a reality. Nestled along the pristine shores of [Location], our resort offers the perfect blend of luxury, comfort, and breathtaking natural beauty. </p>
+                        <p>Welcome to BeachHomes, where your dream beach vacation becomes a reality. We offer a range of accommodations to suit every preference and need. Our resort offers the perfect blend of luxury, comfort, and breathtaking natural beauty. </p>
                     </div>
                 </div>
                 <div className="center box">
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
             <div className="bottom">
                 <center>
-                    <span className="credit">Created By <Link to="#">Mangal Singh Rawat</Link>| </span>
+                    <span className="credit">Created By <Link onClick={()=> window.location.href = "https://www.linkedin.com/in/mangal-singh-rawat-870281177/"}>Mangal Singh Rawat</Link>| </span>
                     <span className="icons"><FaCopyright /></span><spam> 2021 All Rights Reserved.</spam>
                 </center>
             </div>
