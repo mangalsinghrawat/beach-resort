@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="left box">
                     <h2>About Us</h2>
                     <div className="content">
-                        <p>This is Simple Resort Reservation Website. It is created using ReactJs. </p>
+                        <p>Welcome to BeachHomes, where your dream beach vacation becomes a reality. Nestled along the pristine shores of [Location], our resort offers the perfect blend of luxury, comfort, and breathtaking natural beauty. </p>
                     </div>
                 </div>
                 <div className="center box">
@@ -25,7 +25,7 @@ export default function Footer() {
                         </div>
                         <div className="phone">
                             <span className="icons"><FaPhoneAlt /></span>
-                            <span className="text"> +91-2222 222 222</span>
+                            <span className="text"> 9082331713</span>
                         </div>
                         <div className="email">
                             <span className="icons"><FaEnvelope /></span>
